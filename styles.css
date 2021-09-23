@@ -5,6 +5,32 @@
     font-size: 25px;
 }
 
+.navbar {
+    display: flex;
+    justify-content: center !important;
+    background-color: aqua;
+    height: 40px;
+}
+
+.nav-link {
+    border: 1px solid red !important;
+    background-color: rgb(241, 239, 239, .5) !important;
+}
+
+.nav-link:hover {
+    background-color: rgba(245, 245, 245, 0.904) !important;
+}
+
+.navbar-links-modified {
+    display: flex;
+    justify-content: center;
+}
+
+#navbar-border {
+    background-color: teal !important;
+    height: 70px;
+}
+
 .middle {
     background-color: rgb(141, 138, 138);
     display: flex;
@@ -13,9 +39,12 @@
 
 .actions-container {
     display: flex;
-    width: 25%;
+    width: 20%;
     flex-direction: column;
     border: 1px solid red;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 15px;
 }
 
 .action {
@@ -40,6 +69,5 @@
 }
 
 p {
-    font-family: 'Give You Glory', sans-serif;
     font-size: 1em;
 }
