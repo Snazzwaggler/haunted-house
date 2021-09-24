@@ -1,65 +1,91 @@
 <!DOCTYPE html>
 <html lang='en'>
   <head>
-    <title>Main Room</title>
+    <title>Library</title>
     <meta charset='UTF-8'>
-    <link href='styles.css' rel="stylesheet" type = "text/css">
+    <link href='styles.css' rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link href="http://fonts.cdnfonts.com/css/give-you-glory" rel="stylesheet">
+    <!-- for the font -->
+    <link href="http://fonts.cdnfonts.com/css/carnival-corpse" rel="stylesheet">
     <style>
-      @import url('http://fonts.cdnfonts.com/css/give-you-glory');
+      @import url('http://fonts.cdnfonts.com/css/carnival-corpse');
     </style>
+    <link href="http://fonts.cdnfonts.com/css/ubuntu-mono" rel="stylesheet">
+    <style>
+      @import url('http://fonts.cdnfonts.com/css/ubuntu-mono');
+    </style>
+
 
   </head>
 
   <body>
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="pumpkin-room.html">
-          <img src="pumpkin.png" alt="" width="35" height="35" class="d-inline-block align-text-top">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" href="library.html">Library</a>
-            <a class="nav-link" href="hallway.html">Hallway</a>
-            <a class="nav-link" href="closet.html">Closet</a>
-            <div class='middle'>
-              <a class="nav-link active" aria-current="page" href="index.html">Main Room</a>
+    <div class='navbar'>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" id='navbar-border'>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="pumpkin-room.html">
+            <img src="pumpkin.png" alt="" width="35" height="35" class="d-inline-block align-text-top">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <div class='navbar-links-modified'>
+                <a class="nav-link" href="index.html">Main Room</a>
+                <a class="nav-link" href="hallway.html">Hallway</a>
+                <div class='current-tab'>
+                  <a class="nav-link active" aria-current="page" href="library.html">Library</a>
+                </div>
+                <a class="nav-link" href="closet.html">Closet</a>
+                <a class="nav-link" href="basement.html">Basement</a>
+              </div>
             </div>
-            <a class="nav-link" href="basement.html">Basement</a>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
+
+    <div class='main-room-image'>
 
 
     
     <!--action menu-->
-    <div class='actions-container'>
-    <div class='action'>
-        <p>Open Front Door</p>
-    </div>
-    <div class='action'>
-        <p>Sit on the Chair</p>
-    </div>
-    </div>
-
     <div class='page'>
-    <div class='info-box'>
-        <p><strong><em>Welcome</em></strong>
-        <br>We're sorry the bad weather dragged you in,
-        unfortunately it will only get worse. Feel free to explore...We promise
-        it's safe :)</p>
+        <div class='actions-container'>
+          <div class='button'>
+            <a id='button1' class='btn btn-primary btn-lg' href='front-door.html'>todo: change actions</a>
+          </div>
+          <div class='button'>
+            <a id='button1' class='btn btn-primary btn-lg' href='front-door.html'>Sit on the Chair</a>
+          </div>
+          <div class='button'>
+            <a id='button1' class='btn btn-primary btn-lg' href='front-door.html'>Look Out the Window</a>
+          </div>
+          <div class='button'>
+            <a id='button1' class='btn btn-primary btn-lg' href='front-door.html'>button 4</a>
+          </div>
+        </div>
+        <div class='info'>
+        <div class='info-box'>
+          <p><strong><em style='font-size: 40px;'>Creak</em></strong>
+          <br>something about dust floating up, smells of wood and you step on 
+              crackling paper as you walk in. change background pic too</p>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <!--main picture-->
     <!--footer-->
 
-    </div>
+  <div class='footer'>
+    <footer>
+      <p><strong style='font-size: 20px;'>Kymberly Larson and Sarah Carson</strong>
+      <br>We hope you don't get nightmares... or do we?
+      <br><a class='github-link' href="*" style="font-size: 18px;">GitHub Repo</a></p>
+    </footer>
+  </div>
+
 
    </body>
 

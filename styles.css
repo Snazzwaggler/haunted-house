@@ -6,7 +6,7 @@
 }
 
 .main-room-image {
-    background: url(https://images.pexels.com/photos/5435192/pexels-photo-5435192.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background: url(mainroom.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -18,34 +18,56 @@
 .navbar {
     display: flex;
     justify-content: center !important;
-    background-color: aqua;
+    background-color: rgb(24, 24, 24);
     position: fixed;
-    height: 40px;
+    height: 50px;
+    align-items: center !important;
 }
 
 .nav-link:hover {
-    background-color: rgba(245, 245, 245, 0.904) !important;
+    background-color: rgb(17, 17, 17) !important;
+}
+
+.nav-link {
+    color: rgb(231, 153, 7) !important;
+    font-family: 'Carnival Corpse', sans-serif;
+    font-size: 1.5em;
+    height: fit-content !important;
+    align-items: center !important;
+    padding-bottom: 3px !important;
+    padding-top: 3px !important;
 }
 
 .navbar-links-modified {
     display: flex;
     justify-content: center;
+    align-items: center !important;
+}
+
+.current-tab {
+    font-size: 1.4em;
+}
+
+.current-tab:hover {
+    background-color: seagreen !important;
+    border: 1px solid seagreen;
 }
 
 #navbar-border {
-    background-color: teal !important;
-    height: 70px;
+    background-color: rgb(34, 34, 34) !important;
+    height: 80px;
     position: fixed;
     margin-top: 45px;
 }
 
 .actions-container {
     display: flex;
-    width: 20%;
+    width: 20% !important;
     flex-direction: column;
-    border: 1px solid red;
+    justify-content: flex-start !important;
     padding: 5px;
-    margin-left: 15px;
+    margin-left: 10px;
+    padding-top: 20px;
 }
 
 .button {
@@ -54,33 +76,31 @@
 }
 
 #button1 {
-    background-color: rgba(128, 128, 128, 0.829);
+    background-color: rgb(141, 138, 138, 0.4);
     border: black;
     padding: 10px;
     margin: 8px;
     font-size: 1em;
     color: black;
-}
-
-.page {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
+    color: rgb(226, 225, 225) !important;
+    border: 1px solid rgba(163, 163, 163, 0.5);
+    text-align: center;
+    width: 90%;
+    font-family: 'Ubuntu Mono', sans-serif;
 }
 
 .info-box {
     display: flex;
-    justify-self: center;
-    width: 55%;
-    border: 3px solid rgb(141, 138, 138, 0.8);
-    background-color: rgb(141, 138, 138, 0.5);
+    width: 100%;
+    border: 3px solid rgba(163, 163, 163, 0.5);
+    background-color: rgb(141, 138, 138, 0.4);
     text-align: center;
-    padding-bottom: 8px;
+    padding-bottom: 10px;
     margin-top: 0;
-    color: lightblue;
+    color:rgb(226, 225, 225);
     font-size: 1.2em;
-    flex-wrap: wrap !important;
+    height: auto;
+    font-family: 'Ubuntu Mono', sans-serif;
 }
 
 .info-box p {
@@ -97,12 +117,33 @@ p {
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: darkmagenta;
+    background-color: rgb(24, 24, 24);
+    color: rgb(221, 218, 218);
     padding: 0;
     width: 100%;
+    padding-bottom: 12px;
+    padding-top: 3px;
 }
 
 .footer p {
     font-size: .7em;
     margin-bottom: 0;
+    font-family: 'Ubuntu Mono', sans-serif;
+}
+
+.page {
+    display: flex;
+}
+
+.info {
+    display: flex;
+    /* border: 3px solid red; */
+    width: 60%;
+    height: fit-content;
+    padding-top: 70px;
+    padding-left: 65px;
+}
+
+.github-link {
+    color:rgb(231, 153, 7);
 }
