@@ -134,6 +134,12 @@
     align-items: center !important;
 }
 
+.navbar-collapse, .collapse {
+    display: flex;
+    background-color: rgb(34, 34, 34);
+    justify-content: center;
+}
+
 .current-tab {
     font-size: 1.4em;
 }
@@ -147,7 +153,7 @@
     background-color: rgb(34, 34, 34) !important;
     height: 80px;
     position: fixed;
-    margin-top: 45px;
+    margin-top: 50px;
 }
 
 .actions-container {
@@ -269,6 +275,9 @@ p {
         min-height: 100% !important;
         height: fit-content;
     }
+    .navbar-links-modified {
+        flex-flow: column !important;
+    }
   }
   
   /* Tablet Styles */
@@ -300,6 +309,9 @@ p {
         width: 100%;
         min-height: 100% !important;
         height: fit-content;
+    }
+    .navbar-links-modified {
+        flex-flow: column !important;
     }
   }
   
