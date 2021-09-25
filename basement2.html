@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang='en'>
   <head>
-    <title>Pumpkin Room</title>
+    <title>Main Room</title>
     <meta charset='UTF-8'>
     <link href='styles.css' rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
@@ -14,8 +14,7 @@
     <style>
       @import url('http://fonts.cdnfonts.com/css/ubuntu-mono');
     </style>
-
-
+    <meta name='viewport'     content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
   </head>
 
   <body>
@@ -29,16 +28,16 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="collapse navbar-collapse navbar-position" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <div class='navbar-links-modified'>
+                <a class="nav-link" href="index.html">Main Room</a>
                 <a class="nav-link" href="library.html">Library</a>
-                <a class="nav-link" href="hallway.html">Hallway</a>
                 <div class='current-tab'>
-                  <a class="nav-link active" aria-current="page" href="index.html">Main Room</a>
+                  <a class="nav-link active" aria-current="page" href="basement.html">Basement</a>
                 </div>
                 <a class="nav-link" href="closet.html">Closet</a>
-                <a class="nav-link" href="basement.html">Basement</a>
+                <a class="nav-link" href="hallway.html">Hallway</a>
               </div>
             </div>
           </div>
@@ -46,18 +45,23 @@
       </nav>
     </div>
 
-    <div class='pumpkin-image'>
+    <div class='basement2-image'>
 
 
     
     <!--action menu-->
     <div class='page'>
-      <div class='actions-container'>
-      </div>
+        <div class='actions-container'>
+          <div class='button'>
+            <a id='button1' class='btn btn-primary btn-lg' href='index.html'>Take the Stairs</a>
+          </div>
+        </div>
+        
         <div class='info'>
         <div class='info-box'>
-          <p><strong><em style='font-size: 40px;'>Congratulations!</em></strong>
-          <br>You have found the secret pumpkin room!</p>
+          <p><strong><em style='font-size: 40px;'>Congratulations</em></strong>
+          <br>You have defeated the shambling mound! <br>
+              It looks like there's no where else to go in the basement.</p>
           </div>
         </div>
       </div>
@@ -74,6 +78,9 @@
   </div>
 
 
-   </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+ </body>
 
 </html>

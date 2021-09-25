@@ -13,6 +13,96 @@
     background-size: cover;
     height: 120vh; /* this means 100% of the screen size */
     padding: 15px;
+    min-height: 100%;
+    background-position: center;
+}
+.hallway-image {
+    background: url(https://images.pexels.com/photos/1236044/pexels-photo-1236044.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 120vh; /* this means 100% of the screen size */
+    padding: 15px;
+    min-height: 100%;
+    background-position: center;
+}
+.basement-image {
+    background: url(https://images-ext-1.discordapp.net/external/TuIMy5ejLnpSWseRRaALGgBSe-lhzcZnPKYowy97WIQ/https/cdn.pixabay.com/photo/2017/06/07/13/17/lost-places-2380356__480.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 120vh; /* this means 100% of the screen size */
+    padding: 15px;
+    min-height: 100%;
+    background-position: center;
+}
+.death-image {
+    background: url(https://images-ext-2.discordapp.net/external/3UNha1qPm21QeEzEL0ojY6a44UEZHdv5EqZmMMCAXhg/%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D2%26w%3D500/https/images.pexels.com/photos/8355002/pexels-photo-8355002.jpeg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 120vh; /* this means 100% of the screen size */
+    padding: 15px;
+    min-height: 100%;
+    background-position: center;
+}
+.basement2-image {
+    background: url(https://images.pexels.com/photos/3703311/pexels-photo-3703311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 120vh; /* this means 100% of the screen size */
+    padding: 15px;
+    min-height: 100%;
+    background-position: center;
+}
+.closet-image {
+    background: url(https://images.pexels.com/photos/5408080/pexels-photo-5408080.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 120vh; /* this means 100% of the screen size */
+    padding: 15px;
+    min-height: 100%;
+    background-position: center;
+}
+.outside-image {
+    background: url(https://images-ext-2.discordapp.net/external/HYZ5JLzUJPY5sCM1YASb-hRBKaNd-Q5V-C7aH0yURZc/%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D2%26w%3D500/https/images.pexels.com/photos/1287075/pexels-photo-1287075.jpeg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 120vh; /* this means 100% of the screen size */
+    padding: 15px;
+    min-height: 100%;
+    background-position: center;
+}
+.library-image {
+    background: url(https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 120vh; /* this means 100% of the screen size */
+    padding: 15px;
+    min-height: 100%;
+    background-position: center;
+}
+.pumpkin-image {
+    background: url(https://images.pexels.com/photos/3017107/pexels-photo-3017107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 120vh; /* this means 100% of the screen size */
+    padding: 15px;
+    min-height: 100%;
+    background-position: center;
 }
 
 .navbar {
@@ -67,7 +157,7 @@
     justify-content: flex-start !important;
     padding: 5px;
     margin-left: 10px;
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 .button {
@@ -76,7 +166,7 @@
 }
 
 #button1 {
-    background-color: rgb(141, 138, 138, 0.4);
+    background-color: rgba(128, 125, 125, 0.4);
     border: black;
     padding: 10px;
     margin: 8px;
@@ -93,7 +183,7 @@
     display: flex;
     width: 100%;
     border: 3px solid rgba(163, 163, 163, 0.5);
-    background-color: rgb(141, 138, 138, 0.4);
+    background-color: rgba(128, 125, 125, 0.4);
     text-align: center;
     padding-bottom: 10px;
     margin-top: 0;
@@ -147,3 +237,69 @@ p {
 .github-link {
     color:rgb(231, 153, 7);
 }
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    .page {
+        flex-flow: column-reverse;
+        justify-content: center !important;
+        align-items: center;
+    }
+    .actions-container {
+        width: 100% !important;;
+        justify-content: center !important;
+        padding: 5px;
+        margin-left: 0px;
+        padding-top: 25px;
+        align-items: center;
+    }
+    .button {
+        width: 40%;
+    }
+    .info {
+        padding-left: 0;
+        width: 100%;
+    }
+    .info-box, .button {
+        width: fit-content;
+    }
+    .main-room-image, .hallway-image, .basement-image, .death-image, .basement2-image, 
+    .closet-image, .outside-image, .library-image, .pumpkin-image {
+        width: 100%;
+        min-height: 100% !important;
+        height: fit-content;
+    }
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    .page {
+        flex-flow: column-reverse;
+        justify-content: center !important;
+        align-items: center;
+    }
+    .actions-container {
+        width: 100% !important;;
+        justify-content: center !important;
+        padding: 5px;
+        margin-left: 0px;
+        padding-top: 25px;
+        align-items: center;
+    }
+    .button {
+        width: 40%;
+    }
+    .info {
+        padding-left: 0;
+    }
+    .info-box {
+        width: fit-content;
+    }
+    .main-room-image, .hallway-image, .basement-image, .death-image, .basement2-image, 
+    .outside-image, .library-image, .pumpkin-image {
+        width: 100%;
+        min-height: 100% !important;
+        height: fit-content;
+    }
+  }
+  
